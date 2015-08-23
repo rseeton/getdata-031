@@ -17,7 +17,7 @@ library(reshape2)
 #getwd()
 #fileZIP <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 #download.file(fileZIP,destfile = "./zipdata/Dataset.zip", method="curl")
-#unzip("./zipdata/Dataset.zip")
+unzip("./getdata-projectfiles-UCI HAR Dataset.zip")
 
 # Load field labels & subject ids
 feature_labels  <- read.table("./UCI HAR Dataset/features.txt")[,2]
