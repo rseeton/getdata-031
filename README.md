@@ -16,3 +16,6 @@ The solution has one script which will read the downloaded Samsung accelerometer
 Details on the data processing is located in the CodeBook.md file.
 Details on the source data is available here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+NOTE:  
+
+The script assumes the dataset has been downloaded and copied to the current working directory as "getdata-projectfiles-UCI HAR Dataset.zip"
